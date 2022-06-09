@@ -1,0 +1,48 @@
+.enterprise{
+  background: #f2f2f2;
+  padding: 50px 0;
+}
+
+.enterprise__main-title{
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 36px;
+  text-align: center;
+  color: #22343D;
+  margin: 0;
+}
+
+.enterprise__title{
+  display: block;
+  font-weight: 700;
+  font-size: 34px;
+  line-height: 51px;
+  text-align: center;
+  color: #22343D;
+  margin: 16px 0 8px;
+}
+
+
+.enterprise__text{
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 27px;
+  text-align: center;
+  color: #22343D;
+  margin: 0;
+  margin-bottom: 32px;
+}
+
+.enterprise__link{
+  display: block;
+  width: 224px;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 22px;
+  color: #FFFFFF;
+  text-decoration: none;
+  background-color: $main-color;
+  border-radius: 8px;
+  margin: 0 auto;
+  padding: 11px 18px;
+}

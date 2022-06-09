@@ -1,0 +1,120 @@
+.business__box{
+  display: flex;
+  align-items: center;
+}
+
+
+.business__info{
+  width: 535px;
+}
+
+
+.business__title{
+  font-weight: 600;
+font-size: 40px;
+line-height: 149%;
+letter-spacing: -0.03em;
+color: #22343D;
+margin: 0;
+}
+
+
+.business__text{
+  font-weight: 400;
+font-size: 20px;
+line-height: 160%;
+letter-spacing: -0.03em;
+color: #22343D;
+margin: 24px 0;
+}
+
+
+
+.business__mobile-img{
+  display: none;
+}
+
+.business__input{
+width: 470px;
+border: 1px solid #4d4b4b;
+border-radius: 100px;
+padding: 25px;
+margin-bottom: 24px;
+}
+
+.business__form-box{
+  position: relative;
+}
+.business__button{
+  width: 120px;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 0px;
+  color: #FFFFFF;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  background: #02897A;
+  border-radius: 100px;
+  padding: 25px 0;
+  border: transparent;
+  position: absolute;
+  top: 10px;
+  right: 50px;
+}
+
+
+
+.business__subtext{
+  font-size: 14px;
+  line-height: 21px;
+  color: #22343D;
+  position: relative;
+
+}
+
+.business__subbox{
+  display: flex;
+  align-items: center;
+}
+
+.business__join{
+  color: $main-color;
+}
+
+@media screen and (max-width: 520px) {
+
+  .business__box{
+    display: block;
+    align-items: center;
+  }
+
+
+.business__info{
+  width: 90%;
+  text-align: center;
+  margin: 50px auto;
+}
+  
+.business__img{
+ display: none;
+}
+
+.business__mobile-img{
+  display: block;
+  width: 100%;
+  
+}
+
+.business__input{
+  width: 100%;
+  padding: 25px 20px;
+}
+
+.business__button{
+  padding: 25px 20px;
+  right: 3px;
+}
+
+
+}

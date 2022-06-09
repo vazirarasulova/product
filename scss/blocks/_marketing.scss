@@ -1,0 +1,141 @@
+.marketing__item{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 150px;
+
+  &:nth-child(2){
+    flex-direction: row-reverse;
+  }
+}
+
+.marketing__info{
+  max-width: 486px;
+}
+
+.marketing__title{
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+  color: #22343D;
+  margin-bottom: 23px;
+}
+
+.marketing__strong{
+  display: block;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 48px;
+  margin-bottom: 23px;
+}
+
+
+.marketing__text{
+  font-size: 16px;
+  line-height: 26px;
+  color: #22343D;
+  margin: 0;
+  margin-bottom: 30px;
+}
+
+.marketing__subtitle{
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 26px;
+  color: #22343D;
+  margin: 0;
+  margin-bottom: 12px;
+}
+
+.marketing__subtext{
+  font-size: 16px;
+  line-height: 26px;
+  color: #22343D;
+  margin: 0;
+  margin-bottom: 25px;
+
+
+}
+
+.marketing__subitems:nth-child(1){
+  margin-left: 55px;
+  position: relative;
+  &::before{
+    content: "";
+    display: block;
+    width: 35px;
+    height: 35px;
+    background-image: url("../images/yellow.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    position: absolute;
+    top: 0px;
+    left: -55px;
+  }
+}
+
+.marketing__subitems:nth-child(2){
+  margin-left: 55px;
+  position: relative;
+  &::before{
+    content: "";
+    display: block;
+    width: 35px;
+    height: 35px;
+    background-image: url("../images/orange.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    position: absolute;
+    top: 0px;
+    left: -55px;
+  }
+}
+
+
+.marketing__subitems:nth-child(3){
+  margin-left: 55px;
+  position: relative;
+  &::before{
+    content: "";
+    display: block;
+    width: 35px;
+    height: 35px;
+    background-image: url("../images/blue.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    position: absolute;
+    top: 0px;
+    left: -55px;
+  }
+}
+
+
+.marketing__img{
+  width: 543px;
+  height: 500px;
+}
+
+
+@media screen and (max-width: 520px) {
+
+  .marketing__item{
+    flex-direction: column;
+
+    &:first-child{
+      flex-direction: column-reverse;
+    }
+
+    &:nth-child(2){
+      flex-direction: column;
+    }
+  }
+
+  .marketing__img{
+    width: 300px;
+    height: 300px;
+  }
+
+  }
